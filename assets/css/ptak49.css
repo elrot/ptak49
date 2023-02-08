@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
 body {
     font-family: 'Courier Prime', monospace;
 }
 b, strong {font-weight: bold;}
+
+.ico{
+    font-size: 14px;
+}
+
 .cover{
     padding-top: 10rem!important;
     padding-bottom: 10rem!important;
