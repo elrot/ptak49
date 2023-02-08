@@ -1,20 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {%- include head.html -%}
-
   <body>
-
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold">Dom w malowniczej okolicy</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Sprzedam <strong>dom rodzinny</strong> w spokojnej i zielonej okolicy, <strong>Ptakowice</strong> powiat tarnogórski.</p>
       </div>
-    </main>
+      <h3>m:kk@c66.pl p:+48793551983</h3>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--1">
+            <img src="assets/img/photos/11.jpg" class="gallery__img" alt="Image 1">
+          </figure>
+          <figure class="gallery__item gallery__item--2">
+            <img src="assets/img/photos/02.jpg" class="gallery__img" alt="Image 2">
+          </figure>
+          <figure class="gallery__item gallery__item--3">
+            <img src="assets/img/photos/12.jpg" class="gallery__img" alt="Image 3">
+          </figure>
+          <figure class="gallery__item gallery__item--4">
+            <img src="assets/img/photos/06.jpg" class="gallery__img" alt="Image 4">
+          </figure>
+          <figure class="gallery__item gallery__item--5">
+            <img src="assets/img/photos/09.jpg" class="gallery__img" alt="Image 5">
+          </figure>
+          <figure class="gallery__item gallery__item--6">
+            <img src="assets/img/photos/13.jpg" class="gallery__img" alt="Image 6">
+          </figure>
+          <figure class="gallery__item gallery__item--7">
+            <img src="assets/img/photos/16.jpg" class="gallery__img" alt="Image 7">
+          </figure>
+          <figure class="gallery__item gallery__item--8">
+            <img src="assets/img/photos/20.jpg" class="gallery__img" alt="Image 8">
+          </figure>
+          <figure class="gallery__item gallery__item--9">
+            <img src="assets/img/photos/19.jpg" class="gallery__img" alt="Image 9">
+          </figure>
+        </div>
+      </div>
+    </div>
+
+
 
     {%- include footer.html -%}
-
   </body>
-
 </html>
+
