@@ -2,7 +2,7 @@
 body {
     font-family: 'Courier Prime', monospace;
 }
-strong {font-weight: bold;}
+b, strong {font-weight: bold;}
 .cover{
     padding-top: 10rem!important;
     padding-bottom: 10rem!important;
@@ -80,11 +80,6 @@ strong {font-weight: bold;}
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
 }
-
-/* .gallery-2 .gallery-i1 {
-    grid-column: 5 / span 4;
-    grid-row: 1 / span 5;
-} */
 
 .gallery-2 .gallery-i1 {
     grid-column: 1 / span 3;

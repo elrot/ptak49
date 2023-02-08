@@ -1,0 +1,36 @@
+about:
+  - text: Dom powojenny, <b>wyremontowany i rozbudowany w latach 90tych, ocieplony w 2010 roku</b>. Rodzinny i zadbany. Pielęgnowany do 2022 roku.
+  - text: Obiekt w 100% użytkowy, do zamieszkania od zaraz, <b>WOLNY od jakichkolwiek obciążeń</b>.
+  - text: Na terenie posesji znajdują się zabudowania garażowe oraz pomieszczenia gospodarcze.
+  - text: <b>Powierzchnia użytkowa 177 m2</b>
+
+site: 
+  - text: Działka o powierzchni <b>630m2</b> i regularnym kształcie w formie prostokąta o wymiarach <b>42mx15m</b>.
+  - text: Dojazd drogą asfaltową z prywatnym parkingiem przed posesją.  
+  - text: <b>Woda, gaz, prąd(siła) i szambo</b> na terenie posesji.  
+
+floor1:
+  - text: Duże poddasze ze skośnym dachem o powierzchni <b>42m2</b>.
+  - text: Dwie sypialnie o powierzchni <b>15m2 i 18m2</b> w tym jedna z balkonem. 
+  - text: Łazienka <b>4.7m2</b>
+  - text: Strych - <b>nieużytkowy</b>.
+
+floor0:
+  - text: Duża osobna kuchnia o powierzchni <b>17.4m2</b>.
+  - text: Salon połączony z jadalnią o powierzchni <b>28.2m2</b>.
+  - text: <b>Kominek</b>.
+  - text: Sypialnia z widokiem na taras <b>14.4m2</b>.
+  - text: Toaleta z prysznicem <b>2.4m2</b>.
+  - text: Wiatrołap <b>2.9m2</b>.
+
+basement: 
+  - text: Dwa pomieszczenia pod połową domu <b>8m2 i 11.4m2</b>.
+  - text: Piec gazowy oraz węglowy.
+  - text: Auutomatyczna studzienka do odwodnienia.
+
+garage: 
+  - text: Trzy połączone zabudowania.
+  - text: Garaż 1, dwupiętrowy, około <b>16m2</b> u podstawy.
+  - text: Garaż 2, dwupiętrowy, około <b>16m2</b> u podstawy, kanał samochodowy.
+  - text: Garaż 3, jednopiętrowy, wysoki (5m-6m), <b>24m2</b> u podstawy, idealny na przyczepę kempingową.
+  - text: Łączna powierzchnia magazynowa to prawie <b>90m2</b>.

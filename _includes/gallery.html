@@ -1,0 +1,22 @@
+<section class="pb-5">
+    <div class="container">
+        <div class="row">
+        <h1 class="display-6 fw-bold border-bottom">{{include.title}}</h1>
+        <div class="gallery gallery-{{include.version}}">
+            {% for p in include.dataset %} 
+            {% assign photo = site.data.photos[p.code] %} 
+            <figure class="gallery-i gallery-i{{ forloop.index }}">
+                <a
+                href="{{photo.url}}"
+                data-pswp-width="{{photo.width}}"
+                data-pswp-height="{{photo.height}}"
+                target="_blank"
+                >
+                <img src="{{photo.url}}" class="gallery-img">
+            </a>
+            </figure>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+</section>

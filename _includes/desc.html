@@ -1,0 +1,13 @@
+<section class="pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="px-4 my-5 text-center">
+                <div class="col-lg-8 mx-auto">
+                    {% for p in include.dataset %} 
+                    <p class="lead mb-4">{{p.text}} </p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
