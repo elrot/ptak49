@@ -4,35 +4,131 @@
   <body>
     {%- include header.html -%}
 
-    <div class="px-4 py-5 my-5 text-center">
-      <h1 class="display-5 fw-bold">Dom w malowniczej okolicy</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Sprzedam <strong>dom rodzinny</strong> w spokojnej i zielonej okolicy, <strong>Ptakowice</strong> powiat tarnogórski.</p>
+    <section class="py-5">
+      <div class="px-4 my-5 text-center">
+        <h1 class="display-5 fw-bold">Dom w malowniczej okolicy</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Sprzedam <strong>dom rodzinny</strong> w spokojnej i zielonej okolicy, <strong>Ptakowice</strong> powiat tarnogórski.</p>
+        </div>
+        <h3>kk@c66.pl +48793551983</h3>
       </div>
-      <h3>m:kk@c66.pl p:+48793551983</h3>
-    </div>
+    </section>
 
-
-    <div class="container">
-      <div class="row">
-        <div class="gallery" id="gallery">
-          {% for p in site.data.photos_set1 %} 
-            {% assign photo = site.data.photos[p.code] %} 
-            <figure class="gallery__item gallery__item--{{ forloop.index }}">
-              <a
-                href="{{photo.url}}"
-                data-pswp-width="{{photo.width}}"
-                data-pswp-height="{{photo.height}}"
-                target="_blank"
-              >
-              <img src="{{photo.url}}" class="gallery__img">
-            </a>
-            </figure>
-          {% endfor %}
+    <section class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="gallery gallery-1">
+            {% for p in site.data.photos_set1 %} 
+              {% assign photo = site.data.photos[p.code] %} 
+              <figure class="gallery-item gallery-i{{ forloop.index }}">
+                <a
+                  href="{{photo.url}}"
+                  data-pswp-width="{{photo.width}}"
+                  data-pswp-height="{{photo.height}}"
+                  target="_blank"
+                >
+                <img src="{{photo.url}}" class="gallery-img">
+              </a>
+              </figure>
+            {% endfor %}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="display-5 fw-bold border-bottom">Piętro</h1>
+          <div class="gallery gallery-2">
+            {% for p in site.data.photos_set2 %} 
+              {% assign photo = site.data.photos[p.code] %} 
+              <figure class="gallery-item gallery-i{{ forloop.index }}">
+                <a
+                  href="{{photo.url}}"
+                  data-pswp-width="{{photo.width}}"
+                  data-pswp-height="{{photo.height}}"
+                  target="_blank"
+                >
+                <img src="{{photo.url}}" class="gallery-img">
+              </a>
+              </figure>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="display-5 fw-bold border-bottom">Parter</h1>
+          <div class="gallery gallery-2">
+            {% for p in site.data.photos_set3 %} 
+              {% assign photo = site.data.photos[p.code] %} 
+              <figure class="gallery-item gallery-i{{ forloop.index }}">
+                <a
+                  href="{{photo.url}}"
+                  data-pswp-width="{{photo.width}}"
+                  data-pswp-height="{{photo.height}}"
+                  target="_blank"
+                >
+                <img src="{{photo.url}}" class="gallery-img">
+              </a>
+              </figure>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="display-5 fw-bold border-bottom">Piwnica</h1>
+          <div class="gallery gallery-2">
+            {% for p in site.data.photos_set4 %} 
+              {% assign photo = site.data.photos[p.code] %} 
+              <figure class="gallery-item gallery-i{{ forloop.index }}">
+                <a
+                  href="{{photo.url}}"
+                  data-pswp-width="{{photo.width}}"
+                  data-pswp-height="{{photo.height}}"
+                  target="_blank"
+                >
+                <img src="{{photo.url}}" class="gallery-img">
+              </a>
+              </figure>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="display-5 fw-bold border-bottom">Garaże</h1>
+          <div class="gallery gallery-2">
+            {% for p in site.data.photos_set5 %} 
+              {% assign photo = site.data.photos[p.code] %} 
+              <figure class="gallery-item gallery-i{{ forloop.index }}">
+                <a
+                  href="{{photo.url}}"
+                  data-pswp-width="{{photo.width}}"
+                  data-pswp-height="{{photo.height}}"
+                  target="_blank"
+                >
+                <img src="{{photo.url}}" class="gallery-img">
+              </a>
+              </figure>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
 
     {%- include footer.html -%}
   </body>
