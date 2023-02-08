@@ -11,43 +11,13 @@
 
 import PhotoSwipeLightbox from '/assets/js/photoswipe-lightbox.esm.min.js';
 
-const images = [
-  { id: 1, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+1', width: 1500, height: 1000 },
-  { id: 2, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+2', width: 1500, height: 1000 },
-  { id: 3, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+3', width: 1500, height: 1000 },
-  { id: 4, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+4', width: 1500, height: 1000 },
-  { id: 5, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+5', width: 1500, height: 1000 },
-  { id: 6, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+6', width: 1500, height: 1000 },
-  { id: 7, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+7', width: 1500, height: 1000 },
-  { id: 8, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+8', width: 1500, height: 1000 },
-  { id: 9, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+9', width: 1500, height: 1000 },
-  { id: 10, src: 'https://dummyimage.com/1500x1000/555/fff/?text=Image+10', width: 1500, height: 1000 },
-];
-const galleryEl = document.querySelector('#gallery--mixed-source');
-console.log(galleryEl)
 const lightbox = new PhotoSwipeLightbox({
-  dataSource: images,
+  gallery: '#gallery',
+  children: 'a',
   pswpModule: () => import('/assets/js/photoswipe.esm.min.js'),
 });
-lightbox.addFilter('thumbEl', (thumbEl, data, index) => {
-  const el = galleryEl.querySelector('[data-id="' + data.id + '"] img');
-  if (el) {
-    return el;
-  }
-  return thumbEl;
-});
-lightbox.addFilter('placeholderSrc', (placeholderSrc, slide) => {
-  const el = galleryEl.querySelector('[data-id="' + slide.data.id + '"] img');
-  if (el) {
-    return el.src;
-  }
-  return placeholderSrc;
-});
+
 lightbox.init();
-
-// expose to use within onclick attribute
-window.pswpLightbox = lightbox;
-
 
 </script>
 
