@@ -11,162 +11,294 @@ d_floor_1:
   width: 2176
   height: 1546
 
-p02:
-  url: assets/img/photos/02.jpg
+o_2:
+  url: assets/img/photos/o_2.jpg
   width: 1600
   height: 1200
-p03:
-  url: assets/img/photos/03.jpg
+o_3:
+  url: assets/img/photos/o_3.jpg
   width: 1600
   height: 1200
-p04:
-  url: assets/img/photos/04.jpg
+o_4:
+  url: assets/img/photos/o_4.jpg
   width: 1600
   height: 1200
-p05:
-  url: assets/img/photos/05.jpg
+o_5:
+  url: assets/img/photos/o_5.jpg
   width: 1200
   height: 1600
-p06:
-  url: assets/img/photos/06.jpg
+o_6:
+  url: assets/img/photos/o_6.jpg
   width: 1600
   height: 1200
-p07:
-  url: assets/img/photos/07.jpg
+o_7:
+  url: assets/img/photos/o_7.jpg
   width: 1600
   height: 1200
-p08:
-  url: assets/img/photos/08.jpg
+o_8:
+  url: assets/img/photos/o_8.jpg
   width: 1600
   height: 1200
-p09:
-  url: assets/img/photos/09.jpg
+o_9:
+  url: assets/img/photos/o_9.jpg
   width: 1600
   height: 1200
-p10:
-  url: assets/img/photos/10.jpg
+o_10:
+  url: assets/img/photos/o_10.jpg
   width: 1600
   height: 1200
-p11:
-  url: assets/img/photos/11.jpg
+o_11:
+  url: assets/img/photos/o_11.jpg
   width: 1200
   height: 1600
-p12: 
-  url: assets/img/photos/12.jpg
+o_12: 
+  url: assets/img/photos/o_12.jpg
   width: 1200
   height: 1600
-p13:
-  url: assets/img/photos/13.jpg
+o_13:
+  url: assets/img/photos/o_13.jpg
   width: 1600
   height: 1200
-p14:
-  url: assets/img/photos/14.jpg
+o_14:
+  url: assets/img/photos/o_14.jpg
   width: 1200
   height: 1600
-p15:
-  url: assets/img/photos/15.jpg
+o_15:
+  url: assets/img/photos/o_15.jpg
   width: 1200
   height: 1600
-p16:
-  url: assets/img/photos/16.jpg
+o_16:
+  url: assets/img/photos/o_16.jpg
   width: 1600
   height: 1200
-p17:
-  url: assets/img/photos/17.jpg
+o_17:
+  url: assets/img/photos/o_17.jpg
   width: 1200
   height: 1600
-p18:
-  url: assets/img/photos/18.jpg
+o_18:
+  url: assets/img/photos/o_18.jpg
   width: 1200
   height: 1600
-p19:
-  url: assets/img/photos/19.jpg
+o_19:
+  url: assets/img/photos/o_19.jpg
   width: 1600
   height: 1200
-p20:
-  url: assets/img/photos/20.jpg
+o_20:
+  url: assets/img/photos/o_20.jpg
   width: 1600
   height: 1200 
 
 
 
-f01:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
+f0_1:
+  url: assets/img/photos/f0_1.jpg
+  width: 1200
+  height: 1600 
+f0_2:
+  url: assets/img/photos/f0_2.jpg
+  width: 1200
+  height: 1600 
+f0_3:
+  url: assets/img/photos/f0_3.jpg
+  width: 1200
+  height: 1600 
+f0_4:
+  url: assets/img/photos/f0_4.jpg
+  width: 1200
+  height: 1600 
+f0_5:
+  url: assets/img/photos/f0_5.jpg
+  width: 1200
+  height: 1600 
+f0_6:
+  url: assets/img/photos/f0_6.jpg
+  width: 1600
+  height: 1200
+f0_7:
+  url: assets/img/photos/f0_7.jpg
+  width: 1600
+  height: 1200
+f0_8:
+  url: assets/img/photos/f0_8.jpg
+  width: 1200
+  height: 1600 
+f0_9:
+  url: assets/img/photos/f0_9.jpg
+  width: 1600
+  height: 1200
+f0_10:
+  url: assets/img/photos/f0_10.jpg
+  width: 1200
+  height: 1600 
+f0_11:
+  url: assets/img/photos/f0_11.jpg
+  width: 1600
+  height: 1200
+f0_12:
+  url: assets/img/photos/f0_12.jpg
   width: 1600
   height: 1200 
-f02:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
+f0_13:
+  url: assets/img/photos/f0_13.jpg
+  width: 1200
+  height: 1600 
+f0_14:
+  url: assets/img/photos/f0_14.jpg
+  width: 1200
+  height: 1600 
+f0_15:
+  url: assets/img/photos/f0_15.jpg
+  width: 1200
+  height: 1600 
+f0_16:
+  url: assets/img/photos/f0_16.jpg
   width: 1600
   height: 1200
-f03:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
+
+
+
+f1_1:
+  url: assets/img/photos/f1_1.jpg
+  width: 1200
+  height: 1600 
+f1_2:
+  url: assets/img/photos/f1_2.jpg
+  width: 1200
+  height: 1600 
+f1_3:
+  url: assets/img/photos/f1_3.jpg
+  width: 1200
+  height: 1600 
+f1_4:
+  url: assets/img/photos/f1_4.jpg
+  width: 1200
+  height: 1600 
+f1_5:
+  url: assets/img/photos/f1_5.jpg
+  width: 1200
+  height: 1600 
+f1_6:
+  url: assets/img/photos/f1_6.jpg
+  width: 1200
+  height: 1600 
+f1_7:
+  url: assets/img/photos/f1_7.jpg
+  width: 1200
+  height: 1600 
+f1_8:
+  url: assets/img/photos/f1_8.jpg
+  width: 1200
+  height: 1600 
+f1_9:
+  url: assets/img/photos/f1_9.jpg
+  width: 1200
+  height: 1600 
+f1_10:
+  url: assets/img/photos/f1_10.jpg
   width: 1600
   height: 1200
-f04:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
+f1_11:
+  url: assets/img/photos/f1_11.jpg
+  width: 1600
+  height: 1200
+f1_12:
+  url: assets/img/photos/f1_12.jpg
+  width: 1600
+  height: 1200
+f1_13:
+  url: assets/img/photos/f1_13.jpg
+  width: 1600
+  height: 1200
+
+
+
+fb_1:
+  url: assets/img/photos/fb_1.jpg
+  width: 1200
+  height: 1600 
+fb_2:
+  url: assets/img/photos/fb_2.jpg
+  width: 1200
+  height: 1600 
+fb_3:
+  url: assets/img/photos/fb_3.jpg
+  width: 1200
+  height: 1600 
+fb_4:
+  url: assets/img/photos/fb_4.jpg
+  width: 1200
+  height: 1600 
+fb_5:
+  url: assets/img/photos/fb_5.jpg
+  width: 1200
+  height: 1600 
+fb_6:
+  url: assets/img/photos/fb_6.jpg
   width: 1600
   height: 1200 
-f05:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f06:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f07:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f08:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f09:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f010:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f011:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f012:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
+fb_7:
+  url: assets/img/photos/fb_7.jpg
+  width: 1200
+  height: 1600 
+fb_8:
+  url: assets/img/photos/fb_8.jpg
+  width: 1200
+  height: 1600 
+
+
+
+g1_1:
+  url: assets/img/photos/g1_1.jpg
   width: 1600
   height: 1200 
-f013:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f014:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f015:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f016:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f017:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f018:
-  url: https://place-hold.it/1600x1200&text=f018&bold&fontsize=200
+g1_2:
+  url: assets/img/photos/g1_2.jpg
   width: 1600
   height: 1200 
-f019:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
-  width: 1600
-  height: 1200
-f020:
-  url: https://place-hold.it/1600x1200&text=TBD&bold&fontsize=200
+g1_3:
+  url: assets/img/photos/g1_3.jpg
   width: 1600
   height: 1200 
+g1_4:
+  url: assets/img/photos/g1_4.jpg
+  width: 1600
+  height: 1200 
+g1_5:
+  url: assets/img/photos/g1_5.jpg
+  width: 1600
+  height: 1200 
+g1_6:
+  url: assets/img/photos/g1_6.jpg
+  width: 1600
+  height: 1200 
+
+g2_1:
+  url: assets/img/photos/g2_1.jpg
+  width: 1600
+  height: 1200 
+g2_2:
+  url: assets/img/photos/g2_2.jpg
+  width: 1600
+  height: 1200 
+g2_3:
+  url: assets/img/photos/g2_3.jpg
+  width: 1600
+  height: 1200 
+g2_4:
+  url: assets/img/photos/g2_4.jpg
+  width: 1600
+  height: 1200 
+
+
+g3_1:
+  url: assets/img/photos/g3_1.jpg
+  width: 1200
+  height: 1600 
+g3_2:
+  url: assets/img/photos/g3_2.jpg
+  width: 1200
+  height: 1600 
+g3_3:
+  url: assets/img/photos/g3_3.jpg
+  width: 1200
+  height: 1600  
