@@ -9,3 +9,4 @@ url: "http://ptak49.c66.pl"
 markdown: kramdown
 plugins:
   - jekyll-feed
+
